@@ -25,5 +25,7 @@ class TestForm extends AbstractController
     public function save(): void
     {
         $this->submitForm();
+
+        $this->resetForm();
     }
 }
